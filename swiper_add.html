@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>swiper</title>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<style>
+/* Reset */
+html, body {height:100%;font-family:dotum, san-serif;font-size:10px;color:#000;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;} /* 자동으로 폰트크기 조절금지 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,select,input,textarea,p,blockquote,th,td,figure,figcaption {margin:0;padding:0;word-break:break-all;}
+body {position:relative;word-wrap:break-word;word-break:break-all;}
+header,footer,section,article,aside,nav,hgroup,details,menu,figure,figcaption {display:block;}
+h1,h2,h3,h4,h5,h6,strong,th {font-weight:normal;font-size:100%;}
+legend,fieldset {border:0 none;}
+hr {display:block;margin:0 0;height:10px;border:0;background:#eee;}
+input,select,textarea {font-family:inherit;font-size:1.4rem;*font-weight:inherit;vertical-align:middle;color:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+table,th,td {font-size:1.4rem;}
+caption,legend {width:0;height:0;line-height:0;visibility:hidden;font-size:0;}
+ul,ol,li, button, a {list-style:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;font-size:1.4rem;}
+em,address,strong,b {font-style:normal;}
+textarea {resize:none;}
+img{border:0 none;vertical-align:top;max-width:100%;}
+button {overflow:visible;margin:0;padding:0;background:none;border:0 none;border-radius:0;font-family:ng;cursor:pointer;}
+a,a:link,a:visited,a:active {color:#777;text-decoration:none;}
+a:hover {color:#777;}
+a, button {-webkit-tab-highlight-color:rgba(0,0,0,0);-webkit-tab-highlight-color:transparent;outline:0;}
+body {background:#30519e}
+.swiperWrap {box-sizing:border-box;padding:50px 10px;position: relative;width: 100%;white-space: nowrap;overflow: hidden;}
+.swiperInner {position:relative;}
+.swiperWrap .item {display:inline-block;width:250px}
+.swiperWrap .item div {display:block;width:100%;height:250px;background:#fff}
+.swiperWrap.full .item {width:100% !important;}
+</style>
+</head>
+<body>
+<!-- wrap -->
+<div class="contents">
+	<div class="swiperWrap" style="padding-bottom:20px">
+		<ul class="swiperInner">
+			<li class="item">
+				<div>1</div>
+			</li>
+			<li class="item">
+				<div>2</div>
+			</li>
+			<li class="item">
+				<div>3</div>
+			</li>
+			<li class="item">
+				<div>4</div>
+			</li>
+			<li class="item">
+				<div>5</div>
+			</li>
+			<li class="item">
+				<div>6</div>
+			</li>
+		</ul>
+	</div>
+	<div class="swiperWrap full" style="padding-top:0px">
+		<ul class="swiperInner">
+			<li class="item">
+				<div>1</div>
+			</li>
+			<li class="item">
+				<div>2</div>
+			</li>
+			<li class="item">
+				<div>3</div>
+			</li>
+			<li class="item">
+				<div>4</div>
+			</li>
+			<li class="item">
+				<div>5</div>
+			</li>
+			<li class="item">
+				<div>6</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- // wrap -->
+<script src="js/swiper_ui.js"></script>
+</body>
+</html>

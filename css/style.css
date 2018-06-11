@@ -1,0 +1,16 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, select, textarea, button {margin: 0;padding: 0;font-size: 12px;line-height: 120%;font-family: '돋움',dotum,Dotum,Sans-serif;color: .666;}
+ul, ol {list-style:none;}
+img {border:none;}
+a {text-decoration: none;}
+.slierWrap {position:relative;margin:50px auto;width:500px;height:300px;overflow:hidden}
+.slider {width:500px;height:300px;position:absolute;top:0;left:0;}
+.slider li {position:absolute;top:0;left:0;z-index:1}
+.slider li img {display:block}
+.slider li.active {z-index:2}
+.pagingWrap {position:absolute;left:0;bottom:10px;text-align:center;width:100%;z-index:3;font-size:0}
+.pagingWrap button {border:0;display:inline-block;width:13px;height:13px;margin:0 3px;background:url(../img/paging.png) no-repeat 0 0;font-size:0}
+.pagingWrap button.active{background-position:0 100%}
+.btnWrap button{border:0;z-index:3;width:35px;height:35px;top:0;margin-top:0;background:url(../img/btn.png) no-repeat 0 0;position:absolute;top:50%;margin-top:-17.5px;left:0;font-size:0}
+.btnWrap .btnNext{background-position:100% 0;left:auto;right:0}
+.btnWrap .btnPrev:hover{background-position:0 100%}
+.btnWrap .btnNext:hover{background-position:100% 100%}
